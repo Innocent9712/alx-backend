@@ -1,11 +1,11 @@
 #!/ursr/bin/env python3
 import csv
 import math
-from typing import List
+from typing import List, Tuple
 """1. Simple pagination"""
 
 
-def index_range(page, page_size):
+def index_range(page: int, page_size: int) -> Tuple[int, int]:
     """a function named index_range that takes
     two integer arguments page and page_size.
 
